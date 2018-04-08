@@ -2,7 +2,7 @@ import Cookies from 'js-cookie';
 
 const AUTH = "RQSAUTH"
 export default {
-    RQSAUTH: RQSAUTH,
+    AUTH: AUTH,
     ROLE: () => {
         const AUTH_DATA = Cookies.get(AUTH);
         if (!AUTH_DATA) return {}

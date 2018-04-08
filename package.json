@@ -1,6 +1,6 @@
 {
   "name": "user-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "操作用户上下文",
   "main": "index.js",
   "scripts": {

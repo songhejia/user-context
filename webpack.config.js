@@ -8,7 +8,8 @@ function resolve(dir) {
 module.exports = {
   entry: './src/main.js',
   output: {
-    filename: './index.js'
+    filename: './index.js',
+    libraryTarget: 'umd'
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
@@ -21,7 +22,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [resolve('src'), resolve('test')]
+        include: [resolve('src'), resolve('packages')]
       }
     ]
   }

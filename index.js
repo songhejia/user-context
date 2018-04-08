@@ -1,2 +1,1 @@
-var a = require('./dist/index.js');
-module.exports = a;
+module.exports = require('./dist/index.js');
